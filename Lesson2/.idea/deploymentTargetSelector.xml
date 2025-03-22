@@ -18,6 +18,14 @@
       </SelectionState>
       <SelectionState runConfigName="app.multiactivity">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-03-22T06:03:42.799132900Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Karl\.android\avd\Pixel_9.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="secondactivity">
         <option name="selectionMode" value="DROPDOWN" />

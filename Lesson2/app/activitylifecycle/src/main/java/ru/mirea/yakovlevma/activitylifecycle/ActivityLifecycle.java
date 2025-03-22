@@ -10,6 +10,22 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class ActivityLifecycle extends AppCompatActivity {
+    /*
+    Ответы на вопросы:
+    1. onCreate НЕ вызывается после нажатия Home и возврата в приложение.
+       - При нажатии Home: onPause → onStop → (возможно onSaveInstanceState).
+       - При возврате: onRestart → onStart → onResume.
+
+    2. Значение EditText СОХРАНИТСЯ после нажатия Home и возврата:
+       - Если активность не уничтожена системой (остается в стеке), EditText сохраняет состояние автоматически благодаря android:id.
+       - Если система уничтожила активность (например, при нехватке памяти), текст восстановится через onRestoreInstanceState,
+         ТОЛЬКО если добавить сохранение/восстановление вручную (см. примечание ниже).
+
+    3. Значение EditText НЕ СОХРАНИТСЯ после нажатия Back и возврата:
+       - Нажатие Back вызывает onDestroy → активность удаляется из стека.
+       - Повторный запуск приложения вызовет onCreate → EditText будет пустым.
+*/
+
     private static final String TAG = "ActivityLifecycle";
 
     @Override

@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".ActivityLifecycle">
 
-    <!-- Добавим TextView с инструкцией -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -19,9 +18,6 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="16dp"/>
 
-    <!-- Ваш EditText с constraints -->
-
-    <!-- Добавим TextView для отображения статуса -->
 
     <EditText
         android:id="@+id/editText"
