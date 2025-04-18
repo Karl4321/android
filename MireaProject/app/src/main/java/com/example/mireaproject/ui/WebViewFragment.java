@@ -1,4 +1,4 @@
-package com.example.mireaprojectm.ui;
+package com.example.mireaproject.ui;
 
 import android.os.Bundle;
 

@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.intentapp"
+    namespace = "ru.mirea.yakovlev.intentapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.intentapp"
-        minSdk = 24
+        applicationId = "ru.mirea.yakovlev.intentapp"
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"

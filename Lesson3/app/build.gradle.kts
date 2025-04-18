@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.rumireayakovlevlesson3"
+    namespace = "ru.mirea.yakovlev.lesson3"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.rumireayakovlevlesson3"
-        minSdk = 24
+        applicationId = "ru.mirea.yakovlev.lesson3"
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"

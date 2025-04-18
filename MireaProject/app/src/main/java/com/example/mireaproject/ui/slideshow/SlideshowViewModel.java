@@ -1,4 +1,4 @@
-package com.example.mireaprojectm.ui.slideshow;
+package com.example.mireaproject.ui.slideshow;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

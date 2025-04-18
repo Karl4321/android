@@ -7,7 +7,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RumireaYakovlevLesson3">
+        android:theme="@style/Theme.Lesson3">
+        <activity
+            android:name=".SecondFragment"
+            android:exported="false" />
+        <activity
+            android:name=".FirstFragment"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

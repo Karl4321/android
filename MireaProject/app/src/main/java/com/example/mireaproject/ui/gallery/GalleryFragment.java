@@ -1,4 +1,4 @@
-package com.example.mireaprojectm.ui.gallery;
+package com.example.mireaproject.ui.gallery;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

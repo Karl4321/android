@@ -8,14 +8,13 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnSendTime"
+        android:id="@+id/sendButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Отправить время"
-        android:onClick="onSendTimeClick"
+        android:text="Передать время"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

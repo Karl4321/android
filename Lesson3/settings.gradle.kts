@@ -19,9 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ru.mirea.Yakovlev.Lesson3"
+rootProject.name = "Lesson3"
 include(":app")
-include(":intentapp")
+include(":dialog")
 include(":favoritebook")
-include(":systemintentsapp")
+include(":intentapp")
 include(":simplefragmentapp")
+include(":systemintentsapp")

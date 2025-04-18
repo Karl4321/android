@@ -1,4 +1,4 @@
-package com.example.mireaprojectm.ui.home;
+package com.example.mireaproject.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
