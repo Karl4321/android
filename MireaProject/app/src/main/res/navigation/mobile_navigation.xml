@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.mireaprojectm.ui.home.HomeFragment"
+        android:name="com.example.mireaproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.mireaprojectm.ui.gallery.GalleryFragment"
+        android:name="com.example.mireaproject.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.mireaprojectm.ui.slideshow.SlideshowFragment"
+        android:name="com.example.mireaproject.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_data"
-        android:name="com.example.mireaprojectm.ui.DataFragment"
+        android:name="com.example.mireaproject.ui.DataFragment"
         android:label="Data"
         tools:layout="@layout/fragment_data" />
 
     <fragment
         android:id="@+id/nav_webview"
-        android:name="com.example.mireaprojectm.ui.WebViewFragment"
+        android:name="com.example.mireaproject.ui.WebViewFragment"
         android:label="WebView"
         tools:layout="@layout/fragment_web_view" />
 </navigation>
