@@ -34,4 +34,9 @@
         android:name="com.example.mireaproject.ui.WebViewFragment"
         android:label="WebView"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="com.example.mireaproject.ui.BackgroundTaskFragment"
+        android:label="Worker"
+        tools:layout="@layout/fragment_background_task" />
 </navigation>
