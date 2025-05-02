@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <ImageView
+            android:id="@+id/collage_image1"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_gallery" />
+
+        <ImageView
+            android:id="@+id/collage_image2"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_gallery" />
+
+        <ImageView
+            android:id="@+id/collage_image3"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_gallery" />
+
+        <ImageView
+            android:id="@+id/collage_image4"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_gallery" />
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/add_photo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Добавить фото" />
+</LinearLayout>

@@ -39,4 +39,22 @@
         android:name="com.example.mireaproject.ui.BackgroundTaskFragment"
         android:label="Worker"
         tools:layout="@layout/fragment_background_task" />
+    <fragment
+        android:id="@+id/nav_collage"
+        android:name="com.example.mireaproject.ui.CollageFragment"
+        android:label="Фото-коллаж"
+        tools:layout="@layout/fragment_collage" />
+
+    <fragment
+        android:id="@+id/nav_voice"
+        android:name="com.example.mireaproject.ui.VoiceNotesFragment"
+        android:label="Голосовые заметки"
+        tools:layout="@layout/fragment_collage" />
+
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="com.example.mireaproject.ui.CompassFragment"
+        android:label="Компас"
+        tools:layout="@layout/fragment_compass" />
+
 </navigation>
