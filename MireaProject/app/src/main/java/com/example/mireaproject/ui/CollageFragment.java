@@ -26,7 +26,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import com.example.mireaprojectm.R;
+import com.example.mireaproject.R;
 
 public class CollageFragment extends Fragment {
 

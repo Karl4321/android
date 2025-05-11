@@ -20,7 +20,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.mireaproject.BackgroundWorker;
-import com.example.mireaprojectm.R;
+import com.example.mireaproject.R;
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link BackgroundTaskFragment#newInstance} factory method to

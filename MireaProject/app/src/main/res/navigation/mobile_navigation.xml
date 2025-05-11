@@ -57,4 +57,16 @@
         android:label="Компас"
         tools:layout="@layout/fragment_compass" />
 
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.mireaproject.ui.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_encoder"
+        android:name="com.example.mireaproject.ui.FileOperationsFragment"
+        android:label="Шифрование"
+        tools:layout="@layout/fragment_file_operations" />
+
 </navigation>

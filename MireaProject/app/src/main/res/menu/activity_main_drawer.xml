@@ -42,5 +42,13 @@
             android:id="@+id/nav_voice"
             android:icon="@drawable/ic_mic"
             android:title="Голосовые заметки" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/nav_encoder"
+            android:icon="@drawable/ic_encoder"
+            android:title="Шифрование" />
     </group>
 </menu>

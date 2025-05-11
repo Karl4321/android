@@ -1,4 +1,4 @@
-package com.example.mireaprojectm;
+package com.example.mireaproject;
 
 import org.junit.Test;
 

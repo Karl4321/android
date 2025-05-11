@@ -11,11 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
-
+import com.example.mireaproject.R;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-
-import com.example.mireaprojectm.R;
 
 public class CompassFragment extends Fragment implements SensorEventListener {
 
@@ -32,7 +30,7 @@ public class CompassFragment extends Fragment implements SensorEventListener {
     private boolean lastAccelerometerSet = false;
     private boolean lastMagnetometerSet = false;
 
-    private static final float ALPHA = 0.15f; // Коэффициент сглаживания
+    private static final float ALPHA = 0.15f;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -110,6 +108,11 @@ public class CompassFragment extends Fragment implements SensorEventListener {
         }
     }
 
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
+    }
+
     private void lowPassFilter(float[] input, float[] output) {
         for (int i = 0; i < input.length; i++) {
             output[i] = output[i] + ALPHA * (input[i] - output[i]);
@@ -143,9 +146,5 @@ public class CompassFragment extends Fragment implements SensorEventListener {
                     compassImage.setRotation(-azimuth)
             );
         }
-    }
-
-    @Override
-    public void onAccuracyChanged(Sensor sensor, int accuracy) {
     }
 }

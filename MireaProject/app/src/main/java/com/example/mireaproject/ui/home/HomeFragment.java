@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.mireaprojectm.databinding.FragmentHomeBinding;
+import com.example.mireaproject.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 

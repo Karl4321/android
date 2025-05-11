@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.mireaprojectm.databinding.FragmentSlideshowBinding;
+import com.example.mireaproject.databinding.FragmentSlideshowBinding;
 
 public class SlideshowFragment extends Fragment {
 

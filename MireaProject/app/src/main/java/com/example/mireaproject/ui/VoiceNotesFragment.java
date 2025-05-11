@@ -20,7 +20,7 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
-import com.example.mireaprojectm.R;
+import com.example.mireaproject.R;
 
 import java.io.File;
 import java.io.IOException;
