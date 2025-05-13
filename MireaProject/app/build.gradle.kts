@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mireaproject"
+    namespace = "ru.mirea.yakovlev.mireaproject"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mireaproject"
+        applicationId = "ru.mirea.yakovlev.mireaproject"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
