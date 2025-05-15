@@ -50,5 +50,9 @@
             android:id="@+id/nav_encoder"
             android:icon="@drawable/ic_encoder"
             android:title="Шифрование" />
+        <item
+            android:id="@+id/nav_firebase"
+            android:icon="@drawable/ic_encoder"
+            android:title="FireBase" />
     </group>
 </menu>
