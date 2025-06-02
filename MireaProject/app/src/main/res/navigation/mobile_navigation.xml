@@ -75,4 +75,10 @@
         android:label="Firebase"
         tools:layout="@layout/fragment_users" />
 
+    <fragment
+        android:id="@+id/nav_places"
+        android:name="ru.mirea.yakovlev.mireaproject.ui.PlacesFragment"
+        android:label="Заведения"
+        tools:layout="@layout/fragment_places" />
+
 </navigation>

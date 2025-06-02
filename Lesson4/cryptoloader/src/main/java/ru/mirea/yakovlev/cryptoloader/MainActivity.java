@@ -34,11 +34,9 @@ public class MainActivity extends AppCompatActivity
         button.setOnClickListener(v -> {
             String input = editText.getText().toString();
             if (!input.isEmpty()) {
-                // Шифрование
                 SecretKey key = generateKey();
                 byte[] encrypted = encryptMsg(input, key);
 
-                // Передача данных в Loader
                 Bundle args = new Bundle();
                 args.putByteArray(MyLoader.ARG_MESSAGE, encrypted);
                 args.putByteArray(MyLoader.ARG_KEY, key.getEncoded());

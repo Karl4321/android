@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        FirebaseAuth.getInstance().signOut();
+//        FirebaseAuth.getInstance().signOut();
         if (firebaseAuth.getCurrentUser() != null) {
             startMainActivity();
         }

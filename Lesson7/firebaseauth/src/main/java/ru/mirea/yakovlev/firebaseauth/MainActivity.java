@@ -25,10 +25,8 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        // Инициализация Firebase Auth
         mAuth = FirebaseAuth.getInstance();
 
-        // Слушатели кнопок
         binding.createAccountButton.setOnClickListener(v -> {
             String email = binding.emailField.getText().toString().trim();
             String password = binding.passwordField.getText().toString().trim();

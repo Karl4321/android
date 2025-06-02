@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     protected void onResume() {
         super.onResume();
-        // Регистрируем слушатель при возобновлении активности
         if (accelerometer != null) {
             sensorManager.registerListener(this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
         }
@@ -55,7 +54,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     protected void onPause() {
         super.onPause();
-        // Отменяем регистрацию слушателя для экономии ресурсов
         sensorManager.unregisterListener(this);
     }
 
@@ -66,7 +64,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             float y = event.values[1];
             float z = event.values[2];
 
-            // Обновляем текстовые поля
             azimuthTextView.setText(String.format("Azimuth (X): %.2f", x));
             pitchTextView.setText(String.format("Pitch (Y): %.2f", y));
             rollTextView.setText(String.format("Roll (Z): %.2f", z));

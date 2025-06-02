@@ -10,8 +10,4 @@ public class SocketUtils {
     public static BufferedReader getReader(Socket socket) throws IOException {
         return new BufferedReader(new InputStreamReader(socket.getInputStream()));
     }
-
-    public static PrintWriter getWriter(Socket socket) throws IOException {
-        return new PrintWriter(socket.getOutputStream(), true);
-    }
 }

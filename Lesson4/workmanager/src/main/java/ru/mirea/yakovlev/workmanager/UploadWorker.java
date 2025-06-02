@@ -18,7 +18,7 @@ public class UploadWorker extends Worker {
     public Result doWork() {
         Log.d(TAG, "doWork: start");
         try {
-            TimeUnit.SECONDS.sleep(10); // Имитация долгой задачи
+            TimeUnit.SECONDS.sleep(10);
         } catch (InterruptedException e) {
             Log.e(TAG, "doWork: error", e);
             return Result.failure();

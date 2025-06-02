@@ -28,7 +28,7 @@ public class MyLoader extends AsyncTaskLoader<String> {
     @Override
     protected void onStartLoading() {
         super.onStartLoading();
-        forceLoad(); // Запуск фоновой задачи
+        forceLoad();
     }
 
     @Override
